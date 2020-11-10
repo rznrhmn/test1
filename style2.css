@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+}
+
+h1 {
+    display: flex;
+    font-family: 'Anton';
+    font-size: 72px;
+    padding: 10px 0 0 0px;
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+}
+h2 {
+    font-weight: 500;
+    margin: 0 1089px 20px 0;
+    font-size: 24px;
+
+
+}
+.a {
+    line-height: 1.6;
+    font-size: 16px;
+    justify-content: center;
+    text-align: center;
+    padding: 0 0 15px 0;
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
+    justify-content: center;
+}
+
+.border-none {
+    border: none;
+}
+
+.bg-grey {
+    background: rgb(231, 231, 231);
+}
+
+.bg-transparent {
+    background-color: transparent;
+}
+
+.flex {
+    display: flex;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.center {
+    align-items: center;
+}
+
+
+.border-9999 {
+    border-radius: 9999px;
+}
+
+.fd-column {
+    flex-direction: column;
+}
+
+.mx-0 {
+    margin: 0;
+}
+
+.mx-8 {
+    margin: 8px;
+}
+
+.w-110 {
+    width: 110px;
+}
+
+.mx-auto {
+    margin: auto;
+}
+
+.ml-60 {
+    margin-left: 60px;
+}
+
+.w-full {
+    width: 100px;
+}
+
+.px-0 {
+    padding: 0px;
+}
+.px-1 {
+    padding: 5px 40px;
+}
+
+.pl-5 {
+    padding-left: 5px ;
+}
+
+.pt-6 {
+    padding-top: 6px;
+}
+.px-5 {
+    padding: 5px;
+}
+
+.px-2 {
+    padding: 0 30px;
+}
+
+.wh-24 {
+    height: 24px;
+    width: 24px;
+}
+
+.wh-30 {
+    height: 30px;
+    width: 30px;
+}
+
+.wh-60 {
+    height: 60px;
+    width: 60px;
+}
+
+.wh-40 {
+    width: 40px;
+    height: 40px;
+}
+
+.header {
+    width: 1264px;
+    height: 60px;
+    color: black;
+    display: inline-flex;
+}
+
+.pre-header1 {
+    width: 1264px;
+    height: 40px;
+    background-color: rgb(231, 231, 231);
+}
+
+.pre-navbar {
+    width: 1264px;
+    height: 140px;
+    background-color: transparent;
+}
+
+.pre-tren {
+    height: 752px;
+    width: 1168px;
+    margin: 84px 48px 0;
+    padding: 0 8px;
+}
+.pre-tren2 {
+    height: 1309px;
+    width: 1168px;
+    margin: 84px 48px 0;
+    padding: 0 8px;
+}
+
+.pre-trend1{
+    width: 1184px;
+    height: 700px;
+    display: flex;
+}
+
+.pre-trend2 {
+    width: 1168px;
+    height: 950px;
+}
+
+.pre-trendi {
+    width: 592px;
+    height: 700px;
+    padding: 0 8px;
+}
+
+.trendi {
+    width: 576px;
+    height: 700px;
+}
+
+.trendi2 {
+    width: 1168px;
+    height: 950px;
+}
+
+.image1 {
+    position: relative;
+    float: left;
+    width: 576px;
+    height: 700px;
+}
+
+.image2 {
+    position: relative;
+    float: right;
+    width: 576px;
+    height: 700px;
+}
+
+.image3 {
+    width: 1168px;
+    height: 950px;
+    object-fit: cover;
+}
+
+.txt-img {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    color: black;
+
+}
+
+.pre-trend {
+    width: 1184px;
+    height: 52px;
+}
+.trending {
+    margin-right: auto;
+    font-size: 24px;
+}
+
+
+ul li:hover {
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 17px;
+    overflow: hidden;
+    border-bottom: 3px black;
+}
+
+.button {
+    width: 85px;
+    height: 38px;
+    border: none;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+}
+
+
+.button1 {
+    width: 100px;
+    height: 38px;
+    border: none;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+}
+
+.button1:hover {
+    background-color: rgb(83, 81, 81);
+}
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.video-hero {
+    padding: 10px 0px;
+    border: none;
+}
+
+div.scrollmenu {
+    background-color: #333;
+    white-space: nowrap;
+    overflow: auto;
+}
+  
+div.scrollmenu a {
+    color: white;
+    text-align: center;
+    padding: 140px;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+div.scrollmenu a:hover {
+    background-color: #777;
+}
+
+.button:hover {
+    background-color: rgb(83, 81, 81);
+}
+
+.transition {
+    box-shadow: 0 2px 2px 0 rgba(102,106,110,13725);
+    transition: all 0.5s ease;
+}
+
+ul, ol, li {
+    margin: 0;
+    padding: 10px;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+li, ol, li {
+    list-style: none;
+    display: inline;
+}
+
+.container {
+    height: 60px;
+}
+
+.navbar-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+}
+
+
+.content {
+    width: 1168px;
+    height: 915px;
+    background-color: wheat;
+    align-content: center;
+    display: contents;
+    padding: 0 55px;
+}
+
+.pre-content {
+    margin: 0 55px;
+}
+
+.content1 {
+    width: 1168px;
+    height: 100px;
+    justify-content: center;
+    background-color: thistle;
+    margin: 0 55px;
+}
+
+div {
+    background-color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+
+}
